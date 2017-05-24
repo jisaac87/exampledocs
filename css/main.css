@@ -258,7 +258,7 @@ w100{
     display: block;
     background-color: #fff;
     height: 524px;
-    
+
 }
 
 .fth-body .inside{
@@ -659,6 +659,8 @@ w100{
 .tn-body{
     display: block;
     background-color:#fff;
+    overflow: hidden;
+    height: 690px;
 }
 
 .tn-body .inside{
@@ -670,9 +672,42 @@ w100{
 .tn-body .lt-5{
     display: inline-block;
     width: 55%;
+    vertical-align: middle;
 }
 
 .tn-body .rt-5{
     display: inline-block;
     width: 40%;
+    vertical-align: middle;
+}
+
+.tn-body .dv{
+    width: 100%;
+    position: relative;
+    top: -120px;
+    height: 900px;
+
+}
+
+.tn-body h2{
+    font-family: 'Roboto',sans-serif;
+    color: black;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: left;
+    display: block;
+}
+
+
+.tn-body .st-body{
+    font-family: 'Roboto', sans-serif;
+    color:#555;
+    font-weight:400;
+    line-height: 1.5;
+    margin-top: 10px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: left;
+    display: block;
 }
