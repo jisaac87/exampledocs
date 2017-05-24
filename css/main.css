@@ -660,7 +660,8 @@ w100{
     display: block;
     background-color:#fff;
     overflow: hidden;
-    height: 690px;
+    height: 618px;
+
 }
 
 .tn-body .inside{
@@ -679,6 +680,9 @@ w100{
     display: inline-block;
     width: 40%;
     vertical-align: middle;
+    position: relative;
+    bottom: 169px;
+    padding-left: 40;
 }
 
 .tn-body .dv{
@@ -711,3 +715,21 @@ w100{
     text-align: left;
     display: block;
 }
+
+
+
+/*---Ele-body---*/
+
+.foot-body{
+    display: block;
+    background: #f5f5f5;
+    max-width: 1500px
+
+}
+
+.foot-body .inside{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
