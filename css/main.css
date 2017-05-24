@@ -96,6 +96,32 @@ w100{
 
 /*---firstbody---*/
 
+.hide{
+    display: block;
+    position: relative;
+    top: 278px;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    max-width: 1168px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.hide h1{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end ),
+    blink-caret .75s infinite;
+   font-size: 70px; 
+}
+
+
+
 .ft-body{
     display: block;
     background: url('https://www.google.com/docs/about/images/docs/banner-1600.jpg');
@@ -789,3 +815,12 @@ w100{
     color: #245dc1; 
 }
 
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
