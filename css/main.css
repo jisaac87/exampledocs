@@ -716,6 +716,24 @@ w100{
     display: block;
 }
 
+.tn-body .btn{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background:#4386fc;
+    display: block;
+    margin-top: 20px;
+    border-radius: 0;
+    color: white;
+    padding: 17px 13px;
+    text-align: center;
+    width: 289px;
+}
+
+.tn-body .btn:hover{
+    background-color: #2263d6; 
+}
+
 
 
 /*---Ele-body---*/
@@ -723,7 +741,7 @@ w100{
 .foot-body{
     display: block;
     background: #f5f5f5;
-    max-width: 1500px;
+    max-width: 1521px;
     height: 400px;
 
 }
