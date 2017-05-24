@@ -733,3 +733,40 @@ w100{
     margin: 0 auto;
 }
 
+.foot-body .four{
+    display: inline-block;
+    max-width: 236px;
+    padding-left: 20px;
+    width: 100%;
+    margin-right: 0px;
+    vertical-align: top;
+    padding-top: 30px;
+    margin-left: 31px;
+    position: relative;
+    left: 30;
+}
+
+.foot-body h4{
+    color:#4c4c4c;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 20px;
+}
+
+.foot-body li{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    list-style: none;
+    display: block;
+}
+
+.foot-body a{
+    text-decoration: none;
+    color: #245dc1;
+}
+
+.foot-body a:hover{
+    text-decoration: underline;
+    color: #245dc1; 
+}
+
