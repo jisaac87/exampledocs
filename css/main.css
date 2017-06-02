@@ -897,6 +897,38 @@ w100{
         text-align: right;
     }
 
+    .ft-body {
+        display: block;
+        height: auto;
+    
+    }
+
+    .ft-body .inside{
+        display: block;
+        height: 400px;
+    }
+
+    .ft-body .hide{
+        display: block;
+        position: relative;
+        top: 58px;
+        left: 12px;
+        height: auto;
+    }
+
+    .ft-body h3{
+        display: block;
+        position: relative;
+        top: 61px;
+        font-size: 23px;
+        width: 100%;
+    }
+
+    .ft-body .btn{
+        
+    }
+
+    
    
 
 
