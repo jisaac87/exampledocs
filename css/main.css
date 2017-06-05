@@ -981,7 +981,7 @@ w100{
 
     .td-body .inside{
         display: block;
-        height: auto;
+        height: 535px;
         width: 100%;
     }
 
@@ -1006,7 +1006,7 @@ w100{
     .td-body .template img{
         display: block;
         width: 100%;
-        margin-bottom: 43px;
+        margin-bottom: 63px;
     }
 
     .td-body .btn{
@@ -1232,6 +1232,57 @@ w100{
         position: relative;
         bottom: 40px;
     }
+
+    .tn-body {
+        display: block;
+        height: auto;
+    }
+
+    .tn-body .inside{
+        max-width: 780px;
+        width: 100%;
+        display: inline-block;
+        height: 646px; 
+    }
+
+    .tn-body .lt-5{
+        display: inline-block;
+        width: 51%;
+    }
+
+    .tn-body .dv{
+        object-fit: cover;
+    }
+
+    .tn-body h2{
+        font-size: 35px;
+        display: block;
+    }
+
+    .tn-body .st-body{
+        display: block;
+        font-size: 18px;
+    }
+
+
+    .foot-body{
+        display: block;
+        height: auto;
+    }
+
+    .foot-body .inside{
+        display: inline-block;
+        width: 100%;
+        max-width: 780px;
+    }
+
+    .foot-body .four{
+        width: 130px;
+        position: relative;
+        left: 2;
+    }
+
+
 
 
 
