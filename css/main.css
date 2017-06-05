@@ -1281,6 +1281,258 @@ w100{
         position: relative;
         left: 2;
     }
+}
+
+@media screen and (max-width: 320px){
+    .main-head{
+        display: block;
+        height: 51px;
+    }
+
+    .main-head .logo{
+        display: block;
+        font-size: 33px;
+        margin-top: 8px;
+    }
+
+    .main-head .links{
+        display: none;
+    }
+
+    .sm-links{
+        display: inline-block;
+        position: relative;
+        bottom: 39px;
+    }
+
+    .ft-body{
+        display: block;
+        height: 650;
+    }
+
+    .ft-body .inside{
+        display: block;
+        height: auto;
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 10px;
+    }
+
+    .ft-body .hide{
+        display: none;
+    }
+
+    .ft-body h3{
+        display: block;
+        font-size: 25px;
+        width: 92%;
+        position: relative;
+        top: 121px;
+    }
+
+    .ft-body .btn{
+        display: block;
+        width: 85px;
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        right: 12px;
+        top: 156px;
+    }
+
+    .sd-body{
+        display: block;
+    }
+
+    .sd-body .inside{
+        display: block;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .sd-body .lp{
+        display: block;
+        height: auto;
+        position: relative;
+        left: 41px;
+        margin-bottom: 84px;
+        
+    }
+
+    .sd-body .lp img{
+        display: block;
+        object-fit: cover;
+        height: 128px;
+        width: 221px;
+    }
+
+    .sd-body .sd-text{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    .sd-body .sd-text h2{
+        display: block;
+        font-size: 27px;
+    }
+
+    .sd-body .sd{
+        display: block;
+        font-size: 16px;
+        padding-left: 7px;
+        padding-right: 7px;
+        margin-bottom: 48px;
+    }
+
+    .td-body{
+        display: block;
+        height: auto;
+    }
+
+    .td-body .inside{
+        width: 100%;
+        max-width:320px;
+    }
+
+    .td-body h2{
+        display: block;
+        font-size: 27px;
+
+    }
+
+    .td-body p{
+        display: block;
+        font-size: 16px;
+        margin: 0 auto;
+        width: 92%;
+        line-height: 1.8;
+    }
+
+    .td-body .btn{
+        display: block;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .fth-body{
+        display: block;
+        height: 464px;
+    }
+
+    .fth-body .inside{
+        display: block;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .fth-body .right{
+        display: block;
+
+    }
+
+    .fth-body .r1{
+        display: block;
+        position: relative;
+        bottom: 290px;
+        left: 68px;
+        width: 171px;
+    }
+
+    .fth-body .left{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        width: 186px;
+    }
+
+    .fth-body h2{
+        display: block;
+        width: 158%;
+        position: relative;
+        top: 175px;
+        font-size: 21px;
+        
+    }
+
+    .fth-body .st-body{
+        display: block;
+        font-size: 14px;
+        position: relative;
+        top: 198px;
+        width: 211px;
+    }
+
+
+    .fth-body .btn{
+        display: block;
+        width: 168px;
+        position: relative;
+        top: 188px;
+        font-size: 12px;
+    }
+
+
+    .five-body{
+        display: block;
+        height: 380px;
+    }
+
+    .five-body .inside{
+        display: inline-block;
+        max-width: 320px;
+        width:100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+
+    .five-body .lft-1{
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        left: 12px;
+    }
+
+    .five-body .block{
+        display: inline-block;
+        width: 80px;
+        height: 60px;
+        margin-right: 5px;
+    }
+
+    .five-body .block img{
+        width: 80px;
+        display: inline-block;
+        height: 60;
+        object-fit: cover;
+    }
+
+    .five-body .right-1{
+        display: block;
+        width: 85%;
+        text-align: center;
+        position: relative;
+        top: -76px;
+    }
+
+    .five-body h2{
+        font-size: 27px;
+        display: block;
+
+    }
+
+    .five-body .st-body{
+        display: block;
+        font-size: 14px;
+    }
+
+    .five-body a{
+        display: none;
+    }
 
 
 
@@ -1291,9 +1543,6 @@ w100{
 
 
 
-
-    
-   
 
 
 
