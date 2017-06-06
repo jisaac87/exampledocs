@@ -1750,6 +1750,58 @@ w100{
         display: block;
     }
 
+    .tn-body {
+        display: block;
+        height: auto;
+    }
+
+    .tn-body .inside{
+        display: block;
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .tn-body .lt-5{
+        display: block;
+        height: auto;
+        max-width: 239px;
+        width: 100%;
+    }
+
+    .tn-body .dv{
+        height: 180px;
+        width: 181px;
+        position: relative;
+        top: 32px;
+        left: 43px;
+        object-fit: cover;
+    }
+
+    .tn-body .rt-5{
+        display: block;
+        max-width: 239px;
+        width: 100%;
+        position: relative;
+        top: 75px;
+    }
+
+    .tn-body h2{
+        font-size: 27px;
+        display: block;
+    }
+
+    .tn-body .st-body{
+        display: block;
+        font-size: 16px;
+    }
+
+
+    .tn-body .btn{
+        width: 200px;
+        font-size: 14px;
+    }
+
 
 
 
