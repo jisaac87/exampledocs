@@ -243,7 +243,7 @@ w100{
     text-align: center;
     display: block;
     color: #7d7d7d;
-    font-size: 16px;
+    font-size: 21px;
     width: 646px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
@@ -339,6 +339,11 @@ w100{
     width: 246px;
     text-align: center;
 
+}
+
+.fth-body .btn:hover{
+    background-color: #2263d6;
+     
 }
 
 .fth-body .right{
@@ -815,6 +820,10 @@ w100{
     color: #245dc1; 
 }
 
+.onMobile{
+    display: none;
+}
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
@@ -1281,6 +1290,10 @@ w100{
         position: relative;
         left: 2;
     }
+
+    .onMobile{
+        display: none ;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -1351,14 +1364,16 @@ w100{
         max-width: 430px;
         margin: 0 auto;
         padding-left: 25px;
+        padding-right: 25px;
     }
 
     .sd-body .lp{
         display: block;
         height: auto;
         position: relative;
-        left: 41px;
+        left: 99px;
         margin-bottom: 84px;
+        top: 15px;
         
     }
 
@@ -1387,6 +1402,7 @@ w100{
         max-width: 430px;
         width: 100%;
         margin: 0 auto;
+        text-align: left;
     }
 
     .td-body{
@@ -1438,7 +1454,10 @@ w100{
         display: block;
         max-width: 430px;
         width: 100%;
-        margin: 0 auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .fth-body .right{
@@ -1450,8 +1469,11 @@ w100{
         display: block;
         position: relative;
         bottom: 343px;
-        left: 68px;
+        left: 120px;
         width: 171px;
+        margin-top: 35px;
+        top: 8px;
+
     }
 
     .fth-body .left{
@@ -1506,6 +1528,7 @@ w100{
         width: 217px;
         font-size: 12px;
         margin: 0 auto;
+        margin-top: 55px;
     }
 
 
@@ -1521,7 +1544,8 @@ w100{
         margin: 0 auto;
         padding-bottom: 0px;
         min-height: 332px;
-        padding: 0;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .five-body .lft-1{
@@ -1530,6 +1554,7 @@ w100{
         position: relative;
         width: 272px;
         top: 30;
+        padding-top: 10;
     }
 
 
@@ -1552,7 +1577,7 @@ w100{
         display: block;
         max-width: 430px;
         width: 100%;
-        padding-left: 25px;
+        padding: 0;
     }
 
     .five-body h2{
@@ -1560,6 +1585,8 @@ w100{
         display: block;
         width: 100%;
         max-width: 430px;
+        margin-top: 39px;
+        text-align: center;
 
     }
 
@@ -1568,6 +1595,7 @@ w100{
         font-size: 16px;
         width: 100%;
         max-width: 430px;
+        margin-top: 32px;
     }
 
     .five-body a{
@@ -1576,8 +1604,8 @@ w100{
 
     .six-body{
         display: block;
-        height: 526px;
-        padding: 20px;
+        height: 262px;
+        padding: 30px 0;
     }
 
     .six-body .inside{
@@ -1585,8 +1613,9 @@ w100{
         max-width: 430px;
         width: 100%;
         height: auto;
-        margin-top: 37px;
+        margin-top: 36px;
         padding-left: 25px;
+        padding-right: 25px;
     }
 
     .six-body .lf-2{
@@ -1612,6 +1641,7 @@ w100{
         font-size: 27px;
         max-width: 430px;
         width: 100%;
+        text-align: center;
     }
 
     .six-body .st-body{
@@ -1619,12 +1649,15 @@ w100{
         font-size: 16px;
         max-width: 430px;
         width: 100%;
+        margin-top: 32px;
 
     }
 
 
     #g{
         height: 150px;
+        position: relative;
+        left: 59px;
     }
 
 
@@ -1635,38 +1668,37 @@ w100{
 
     .sv-body .inside{
         display: block;
-        max-width: 320px;
+        max-width: 430px;
         width: 100%;
+        margin: 0;
     }
 
     .sv-body h2{
         display: block;
         font-size: 27px;
         text-align: center;
-        width: 239px;
-        position: relative;
-        left: 14px;
+        max-width: 430px;
+        width: 100%;
     }
 
     .sv-body .uno {
-        max-width: 239px;
+        max-width: 430px;
         display: block;
         width: 100%;
+        margin: 0 auto;
     }
 
     .sv-body .st-body{
         display: block;
         font-size: 16px;
-        max-width:239px;
+        max-width:430px;
         width: 100%;
-        position: relative;
-        left: 5px;
     }
 
     .sv-body .tb{
         display: block;
         position: relative;
-        left: 56px;
+        left: 153px;
     }
 
     #cn{
@@ -1686,95 +1718,107 @@ w100{
 
 
     .et-body .inside{
-        max-width: 320px;
+        max-width: 430px;
         width: 100%;
         display: block;
+        margin: 0 ;
+        padding: 0 25px;
+        margin-top: 70;
     }
 
     .et-body .lt-3{
         display: block;
-        height: auto;
+        height: 210px;
         margin: 0 auto;
+        max-width: 430px;
+        width: 100%;
     }
 
 
     .et-body .lt-3 img{
         display: block;
         height:200px ;
+        margin: 0 auto;
     }
 
     .et-body .rt-3{
         display: block;
         height: auto;
-        max-width: 239px;
+        max-width: 430px;
         width: 100%;
-        margin: 0 auto;
-        position: relative;
-        bottom: 111px;
     }
 
     .et-body h2{
         font-size: 27px;
         display: block;
+        text-align: center;
     }
 
     .et-body .lt-3 .mv{
         height: 120px;
         position: relative;
-        bottom: 178px;
-        left: 12px;
+        bottom: 175px;
+        left: -13px;
     }
 
     .et-body .st-body{
         display: block;
         font-size: 16px;
+        margin-top: 32px;
     }
     
     .et-body .btn{
         display: block;
         font-size: 14px;
         width: 200px;
+        margin: 0 auto;
+        margin-top: 68px;
     }
 
 
     .nth-body {
         display: block;
-        height: 515px;
+        height: 373px;
+        padding-top: 32px;
     }
 
     .nth-body .inside{
-        max-width: 320px;
+        max-width: 430px;
         width: 100%;
         display: block;
-        margin: 0 auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 0;
+        height: 500;
+        margin: 0;
     }
 
     .nth-body .rt-4{
         display: block;
-        max-width: 239px;
+        max-width: 430px;
         width: 100%;
+        padding: 0;
+        position: relative;
+        top: 83px;
+        margin-bottom: 0px;
+        left: 33px;
     }
 
     .nth-body .add{
-        display: block;
         height: 150px;
-        position: relative;
-        bottom: 244px;
-        left: 11px;
     }
 
     .nth-body .lt-4{
         display: block;
-        max-width: 239px;
+        max-width: 430px;
         width: 100%;
-        position: relative;
-        top: 235px;
-        margin:0 auto;
+        margin-top: 181px;
     }
 
     .nth-body h2{
         font-size: 27px;
         display: block;
+        text-align: center;
     }
 
     .nth-body .st-body{
@@ -1789,9 +1833,13 @@ w100{
 
     .tn-body .inside{
         display: block;
-        max-width: 320px;
+        max-width: 430px;
         width: 100%;
-        margin: 0 auto;
+        margin: 0;
+        padding-left:25px;
+        padding-right: 25px;
+        padding-top: 30px;
+
     }
 
     .tn-body .lt-5{
@@ -1806,32 +1854,36 @@ w100{
         width: 181px;
         position: relative;
         top: 32px;
-        left: 43px;
+        left: 110px;
         object-fit: cover;
     }
 
     .tn-body .rt-5{
         display: block;
-        max-width: 239px;
+        max-width: 430px;
         width: 100%;
-        position: relative;
-        top: 75px;
+        margin-top: 247px;
+        padding: 0;
     }
 
     .tn-body h2{
         font-size: 27px;
         display: block;
+        text-align: center;
     }
 
     .tn-body .st-body{
         display: block;
         font-size: 16px;
+        margin-top: 32px;
     }
 
 
     .tn-body .btn{
         width: 200px;
         font-size: 14px;
+        margin: 0 auto;
+        margin-top: 37px;
     }
 
 
@@ -1846,5 +1898,10 @@ w100{
 
 
 .hide{
+    display: none !important;
+}
+
+
+.onMobile{
     display: none !important;
 }
