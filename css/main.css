@@ -1283,7 +1283,7 @@ w100{
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 500px){
     .main-head{
         display: block;
         height: 51px;
@@ -1348,7 +1348,9 @@ w100{
     .sd-body .inside{
         display: block;
         width: 100%;
-        max-width: 320px;
+        max-width: 430px;
+        margin: 0 auto;
+        padding-left: 25px;
     }
 
     .sd-body .lp{
@@ -1382,7 +1384,7 @@ w100{
     .sd-body .sd{
         display: block;
         font-size: 16px;
-        max-width: 239px;
+        max-width: 430px;
         width: 100%;
         margin: 0 auto;
     }
@@ -1394,7 +1396,9 @@ w100{
 
     .td-body .inside{
         width: 100%;
-        max-width:320px;
+        max-width:430px;
+        margin: 0 auto;
+        padding-left: 25px;
     }
 
     .td-body h2{
@@ -1407,10 +1411,16 @@ w100{
         display: block;
         font-size: 16px;
         margin: 0 auto;
-        max-width:239px;
+        max-width:430px;
         line-height: 1.8;
         width: 100%;
         text-align: left;
+    }
+
+
+    .td-body .template img{
+        max-width: 480px;
+        width: 100%;
     }
 
     .td-body .btn{
@@ -1426,8 +1436,9 @@ w100{
 
     .fth-body .inside{
         display: block;
-        max-width: 320px;
+        max-width: 430px;
         width: 100%;
+        margin: 0 auto;
     }
 
     .fth-body .right{
@@ -1448,7 +1459,7 @@ w100{
         margin: 0 auto;
         text-align: center;
         padding: 0;
-        max-width: 239px;
+        max-width: 430px;
         width: 100%;
     }
 
@@ -1457,17 +1468,34 @@ w100{
         position: relative;
         top: 175px;
         font-size: 27px;
-        max-width: 239px;
+        max-width: 430px;
         width: 100%;
         
+    }
+
+    .fth-body h2,
+    .fth-body p,
+    .fth-body .btn,
+    .fth-body .st-body{
+        top:0;
+    }
+
+    .fth-body .r1{
+        bottom:0;
+    }
+
+    .onMobile{
+        display:block;
+    }
+
+    .onDesktop{
+        display:none !important;
     }
 
     .fth-body .st-body{
         display: block;
         font-size: 16px;
-        position: relative;
-        top: 198px;
-        max-width: 239px;
+        max-width: 430px;
         width: 100%;
         letter-spacing: 0px;
     }
@@ -1476,9 +1504,8 @@ w100{
     .fth-body .btn{
         display: block;
         width: 217px;
-        position: relative;
-        top: 209px;
         font-size: 12px;
+        margin: 0 auto;
     }
 
 
@@ -1489,21 +1516,23 @@ w100{
 
     .five-body .inside{
         display: inline-block;
-        max-width: 320px;
+        max-width: 430px;
         width:100%;
-        padding-left: 10px;
-        padding-right: 10px;
         margin: 0 auto;
         padding-bottom: 0px;
         min-height: 332px;
+        padding: 0;
     }
 
     .five-body .lft-1{
-        display: inline-block;
-        width: 100%;
+        display: block;
+        margin: 0 auto;
         position: relative;
-        left: 12px;
+        width: 272px;
+        top: 30;
     }
+
+
 
     .five-body .block{
         display: inline-block;
@@ -1521,23 +1550,24 @@ w100{
 
     .five-body .right-1{
         display: block;
-        width: 85%;
-        text-align: center;
-        position: relative;
-        top: -76px;
+        max-width: 430px;
+        width: 100%;
+        padding-left: 25px;
     }
 
     .five-body h2{
         font-size: 27px;
         display: block;
-        width: 237px;
+        width: 100%;
+        max-width: 430px;
 
     }
 
     .five-body .st-body{
         display: block;
         font-size: 16px;
-        width: 237px;
+        width: 100%;
+        max-width: 430px;
     }
 
     .five-body a{
@@ -1546,25 +1576,27 @@ w100{
 
     .six-body{
         display: block;
-        height: 600;
+        height: 526px;
         padding: 20px;
     }
 
     .six-body .inside{
         display: block;
-        max-width: 320px;
+        max-width: 430px;
         width: 100%;
         height: auto;
-        margin-top: 17px;
+        margin-top: 37px;
+        padding-left: 25px;
     }
 
     .six-body .lf-2{
         display: block;
-        position: relative;
-        top: 226px;
         text-align: center;
         margin: 0 auto;
-        width: 257px;
+        max-width: 430px;
+        width: 100%;
+        padding: 0;
+        margin-top: 25px;
     }
 
     .six-body .rt-2{
@@ -1578,14 +1610,14 @@ w100{
     .six-body h2{
         display: block;
         font-size: 27px;
-        max-width: 257px;
+        max-width: 430px;
         width: 100%;
     }
 
     .six-body .st-body{
         display: block;
         font-size: 16px;
-        max-width: 239px;
+        max-width: 430px;
         width: 100%;
 
     }
@@ -1809,13 +1841,10 @@ w100{
 
 
 
+}
 
 
 
-
-
-
-
-
-
+.hide{
+    display: none !important;
 }
