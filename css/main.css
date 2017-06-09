@@ -50,6 +50,7 @@ w100{
     font-family: 'Roboto' , sans-serif;
     display: inline-block;
     position: relative;
+    list-style:
 }
 .menu-items{
     border-bottom: 2px solid transparent;
@@ -96,7 +97,7 @@ w100{
 
 /*---firstbody---*/
 
-.hide{
+.typeWriter{
     display: block;
     position: relative;
     top: 278px;
@@ -108,7 +109,7 @@ w100{
     margin: 0 auto;
 }
 
-.hide h1{
+.typeWriter h1{
     overflow: hidden;
   border-right: .15em solid orange; 
   white-space: nowrap; 
@@ -1294,6 +1295,10 @@ w100{
     .onMobile{
         display: none ;
     }
+
+    .typeWriter{
+    display: none ;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -1447,7 +1452,7 @@ w100{
 
     .fth-body{
         display: block;
-        height: 532px;
+        height: 383px;
     }
 
     .fth-body .inside{
@@ -1886,20 +1891,22 @@ w100{
         margin-top: 37px;
     }
 
-
-
-
-
-
-
-
-}
-
-
-
-.hide{
+    .typeWriter{
     display: none !important;
+    }
+
+
+
+
+
+
+
+
 }
+
+
+
+
 
 
 .onMobile{
